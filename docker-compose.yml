@@ -18,7 +18,8 @@ services:
     hostname: db
     container_name: firefly_iii_db
     restart: always
-    env_file: .db.env
+    env_file: .env
+    # env_file: .db.env
     networks:
       - firefly_iii
     volumes:

@@ -1,5 +1,6 @@
 firefly-iii
 
-.*.env
+.db.env
+.complete.env
 
 .env
